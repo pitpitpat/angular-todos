@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col fs-0-9">
+
+        <div class="row">
+            <div class="col-md-7">
+
+                <div class="row">
+                    <div class="col">
+                        <span>{{todo.title}}</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-5 text-right">
+
+                <span *ngFor="let tag of todo.tags" class="mr-2">
+
+                    <app-tag [tag]="tag" (removeTagEvent)="removeTag($event)"></app-tag>
+
+                </span>
+
+            </div>
+        </div>
+
+    </div>
+</div>

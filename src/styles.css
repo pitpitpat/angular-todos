@@ -1,0 +1,32 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.fs-0-9 {
+  font-size: 0.9rem !important;
+}
+
+.fs-0-8 {
+  font-size: 0.8rem !important;
+}
+
+.fs-0-6 {
+    font-size: 0.6rem !important;
+}
+
+.fs-0-5 {
+  font-size: 0.5rem !important;
+}
+
+.mh-auto {
+    min-height: auto !important;
+}
+
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
